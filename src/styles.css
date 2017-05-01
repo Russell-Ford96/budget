@@ -3,3 +3,60 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+body{
+    
+    background-color: #B7D44C;
+}
+.logo{
+    height:100%;
+}
+a.navbar-brand{
+    padding:0;
+}
+html{
+    min-height:100%;
+}
+.tree-background {
+    background: url("/cir_animacion_1.jpg");
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+}
+.header {
+    color: orangered;
+    font-size: 80px;
+    text-align: center;
+}
+.full-screen-row {
+    min-height: 80vh;
+    padding: 10px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+}
+.centerWhite{
+    text-align: center;
+    color:white;
+}
+.footer-div{
+        text-align:center;
+        background:black;  
+        overflow:hidden;
+        padding-top:10px;
+}
+/*  ----------- */
+@media only screen and (max-device-width : 768px) {
+    .header{
+        font-size:38px;
+    }
+    .centerWhite{
+        margin-bottom: 0;
+    }
+    div.form-group{
+        margin-bottom:0;
+    }
+    .footer-div{
+        
+        
+    }
+}
